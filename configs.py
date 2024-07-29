@@ -42,7 +42,7 @@ class Config(object):
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "Tetresitbot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002223130669"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1582227872"))
-	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://Animeverse07:<password>@cluster0.a8slkh0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://Animeverse07:shubh07@cluster0.a8slkh0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002177134476")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002150881559")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
